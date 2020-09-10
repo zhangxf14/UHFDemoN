@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/start_stop"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="37.0sp"
+        android:layout_marginTop="7.5sp"
+        android:layout_marginRight="37.0sp"
+        android:layout_marginBottom="7.5sp"
+        android:background="@drawable/button_background"
+        android:clickable="true"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingTop="7.5sp"
+        android:paddingBottom="7.5sp"
+        android:text="@string/start_inventory"
+        android:textColor="#ff222222"
+        android:textSize="12.0sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#B6AEAE">
+    </View>
+
+    <com.uhf.uhf.widget.LeftSlideActionListView
+        android:id="@+id/test_temp_inventory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.uhf.uhf.widget.LeftSlideActionListView>
+</LinearLayout>

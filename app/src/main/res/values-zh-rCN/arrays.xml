@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fundan_command_operation" >
+        <item>单次测温</item>
+        <item>停止RTC测温</item>
+        <item>加载配置</item>
+        <item>读寄存器</item>
+        <item>状态查询</item>
+        <item>认证</item>
+        <item>led控制亮灭</item>
+        <item>单次测量电压</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fundan_command_operation" >
+        <item>Temperature Meas</item>
+        <item>Stop RTC temperature test</item>
+        <item>Load config</item>
+        <item>Read reg</item>
+        <item>Check status</item>
+        <item>Auth</item>
+        <item>Led Controller</item>
+        <item>Temperature Voltage</item>
+    </string-array>
+</resources>
